@@ -1,0 +1,49 @@
+# Site settings
+baseURL = "https://www.yogabymira.com/"
+languageCode = "en-us"
+title = "Yoga by Mira"
+theme = "hugo-split-theme"
+
+# Copyright
+copyright = "&copy;2020 Mira Stangl"
+
+[params]
+
+  # Metadata for search engines and social sharing
+  author = "Mira Stangl"
+  description = "Hatha Yoga practice incorporating meditation, movement, mudras, and mantras."
+  twitterHandle = "mirastangl"
+
+  # Section - Visual
+  [params.visual]
+
+    # The image
+    [params.visual.image]
+      enable = true
+      file = "images/peace.jpg"
+      position = "center center"
+
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Connect"
+
+      [[params.links.list1.link]]
+        text = "Email"
+	url = "mailto:mirayogastudio@gmail.com"
+	fa_class = "far fa-envelope"
+
+      [[params.links.list1.link]]
+        text = "Instagram"
+	url = "https://www.instagram.com/yogabymira_/"
+	fa_class = "fab fa-instagram"
+
+      [[params.links.list1.link]]
+        text = "Facebook"
+	url = "https://www.facebook.com/mira.catherine"
+	fa_class = "fab fa-facebook-square"
+
+      [[params.links.list1.link]]
+        text = "Twitter"
+	url = "https://twitter.com/mirastangl"
+	fa_class = "fab fa-twitter"

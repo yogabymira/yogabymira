@@ -1,3 +1,9 @@
+# Hugo output
+public/
+
+# Vim
+*.swp
+
 # Logs
 logs
 *.log
